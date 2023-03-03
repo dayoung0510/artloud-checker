@@ -12,7 +12,7 @@ const Bg = styled.div`
   scroll-snap-type: y mandatory;
   &::-webkit-overflow-scrolling: touch;
 
-  background-image: url("src/assets/bg3.jpg");
+  background-image: url("bg3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ const Bg = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    background-image: url("src/assets/bg4.jpg");
+    background-image: url("bg4.jpg");
   }
 `;
 
