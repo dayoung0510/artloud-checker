@@ -8,6 +8,10 @@ const Bg = styled.div`
   overflow-y: scroll;
   overflow-x: hidden;
 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  &::-webkit-overflow-scrolling: touch;
+
   background-image: url("src/assets/bg3.jpg");
   background-size: cover;
   background-position: center;
@@ -15,9 +19,8 @@ const Bg = styled.div`
 
   -ms-overflow-style: none;
   scrollbar-width: none;
-
   &::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
+    display: none;
   }
 
   @media screen and (max-width: 500px) {

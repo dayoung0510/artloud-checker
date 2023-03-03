@@ -19,6 +19,9 @@ const Item = styled.div`
   a {
     color: #fff;
   }
+  a:hover {
+    color: #ccc;
+  }
 `;
 
 const Navbar = () => {

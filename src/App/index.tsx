@@ -11,7 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/setting" element={<Setting />} />
-        <Route path="*" element={<Navigate replace to="/" />} />{" "}
+        <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
     </Layout>
   );

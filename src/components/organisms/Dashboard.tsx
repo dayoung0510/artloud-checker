@@ -1,7 +1,7 @@
 import ContentContainer from "src/components/atoms/ContentContainer";
 
-const Records = () => {
+const Dashboard = () => {
   return <ContentContainer>!!!</ContentContainer>;
 };
 
-export default Records;
+export default Dashboard;
