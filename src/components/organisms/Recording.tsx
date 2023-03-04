@@ -33,14 +33,13 @@ const Recording = ({ loading, setLoading }: Props) => {
 
   return (
     <ContentContainer>
-      <Loading />
-      {/* <form method="post" ref={formRef} onSubmit={(e) => handleSubmit(e)}>
+      <form method="post" ref={formRef} onSubmit={(e) => handleSubmit(e)}>
         <input name="date" />
         <input name="start" />
         <input name="end" />
         <input name="coffee" />
         <button type="submit">확인</button>
-      </form> */}
+      </form>
     </ContentContainer>
   );
 };

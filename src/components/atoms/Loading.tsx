@@ -77,9 +77,7 @@ const Loading = () => {
     <Container>
       <Block />
       <div>
-        {/* <Box>if my action do not change,</Box> */}
         <Text>LOADING...</Text>
-        {/* <Box>then words become meaningless.</Box> */}
       </div>
 
       <Subtitle>
