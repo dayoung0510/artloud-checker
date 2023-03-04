@@ -51,7 +51,7 @@ const Dashboard = ({ records }: Props) => {
               잔의 커피를 마셨습니다.
             </div>
             <ResultBox>
-              시간당 <Number>{perTime}</Number>원에 이용 중입니다.
+              시간당 <Number>{perTime}</Number>원에 이용 중
             </ResultBox>
           </Div>
         );

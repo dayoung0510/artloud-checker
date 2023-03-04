@@ -35,7 +35,7 @@ const Text = styled.div`
 
   -webkit-text-stroke: 1px rgba(black, 0.5);
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: #ffffffd9;
   text-shadow: 8px 8px #e227027b, 20px 20px #000000;
 
