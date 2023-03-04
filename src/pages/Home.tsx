@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <Div>
       <Recording loading={loading} setLoading={setLoading} />
-      <Dashboard loading={loading} records={records} />
+      <Dashboard records={records} />
     </Div>
   );
 };

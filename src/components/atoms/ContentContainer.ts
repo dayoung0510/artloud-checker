@@ -5,6 +5,11 @@ const ContentContainer = styled.div`
   height: 100%;
   padding: 1rem;
   scroll-snap-align: start;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
 
 export default ContentContainer;
