@@ -12,6 +12,10 @@ const Div = styled.div`
   align-items: center;
   gap: 0.5rem;
   color: #ccc;
+
+  @media (max-width: 500px) {
+    font-size: 0.6rem;
+  }
 `;
 const Number = styled.span`
   color: #fff;
@@ -37,7 +41,9 @@ const Dashboard = ({ records }: Props) => {
         return (
           <Div key={record[0]}>
             <div>
-              <Number>{dateAcc}</Number>일 출석하여 총{" "}
+              52일 중 <Number>{dateAcc}</Number>일 출석하여
+            </div>
+            <div>
               <Number>{timeAcc}</Number>시간 머물렀습니다.
             </div>
             <div>

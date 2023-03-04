@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "src/components/atoms/Layout";
 import Navbar from "src/components/atoms/Navbar";
-import Setting from "src/pages/Setting";
+import Info from "src/pages/Info";
 import Home from "src/pages/Home";
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/setting" element={<Setting />} />
+        <Route path="/info" element={<Info />} />
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
     </Layout>

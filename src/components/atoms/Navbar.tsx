@@ -14,7 +14,6 @@ const Flex = styled.div`
 const Item = styled.div`
   width: 5rem;
   text-align: center;
-  font-size: 0.4rem;
   font-weight: 100;
   a {
     font-size: 0.4rem;
@@ -37,7 +36,7 @@ const Navbar = () => {
         <Link to="/">BOARD</Link>
       </Item>
       <Item>
-        <Link to="/setting">SETTING</Link>
+        <Link to="/info">INFO</Link>
       </Item>
     </Flex>
   );
