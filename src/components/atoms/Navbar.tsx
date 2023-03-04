@@ -17,10 +17,16 @@ const Item = styled.div`
   font-size: 0.4rem;
   font-weight: 100;
   a {
-    color: #fff;
+    font-size: 0.4rem;
+    font-weight: 100;
+    color: #fb5ff9;
+    -webkit-text-stroke: 0.5px #fb62f9;
+    filter: drop-shadow(0 0 5px #fb62f9);
   }
   a:hover {
-    color: #ccc;
+    color: #fca1e5;
+    -webkit-text-stroke: 0.5px #ffcbf2;
+    filter: drop-shadow(0 0 5px #ffcbf2);
   }
 `;
 
