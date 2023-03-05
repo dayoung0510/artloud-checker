@@ -15,7 +15,6 @@ const Container = styled.div`
 `;
 
 const CoffeeCheck = ({ coffee, setCoffee }: props) => {
-  console.log(coffee);
   return (
     <>
       <Container

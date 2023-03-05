@@ -11,14 +11,15 @@ const Div = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #ccc;
+  color: #ddd;
+  font-family: "dung";
 
   @media (max-width: 500px) {
     font-size: 0.6rem;
   }
 `;
 const Number = styled.span`
-  color: #fff;
+  color: #cafccd;
   letter-spacing: 4px;
   filter: drop-shadow(2px 2px 4px #12cd19);
 `;

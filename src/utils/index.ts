@@ -3,7 +3,7 @@ export const getDate = () => {
   const month = ("0" + (date.getMonth() + 1)).slice(-2);
   const day = ("0" + date.getDate()).slice(-2);
 
-  return `${month}/${day}`;
+  return `${month} / ${day}`;
 };
 
 //nn:nn 형식으로 만들기

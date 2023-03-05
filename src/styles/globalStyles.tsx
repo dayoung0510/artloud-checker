@@ -39,6 +39,12 @@ const GlobalStyle = createGlobalStyle`
   font-weight: 800;
   font-style: normal;
 }
+@font-face {
+    font-family: 'dung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
   /* reset css */
   * {
@@ -51,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #000;
     color:#fff;
     font-size: 36px; 
-    font-family:'digit', 'pret', sans-serif;
+    font-family:'digit', 'pret', 'dung', sans-serif;
     font-weight: 400;
   }
   html, 
@@ -74,7 +80,7 @@ const GlobalStyle = createGlobalStyle`
   h4, 
   h5, 
   h6 {
-    font-family:'digit', 'pret', sans-serif;
+    font-family:'digit', 'pret', 'dung', sans-serif;
   }
   article, 
   aside, 
@@ -119,7 +125,7 @@ const GlobalStyle = createGlobalStyle`
   button {
     margin:0;
     padding:0;
-    font-family:'digit', 'pret', sans-serif;
+    font-family:'digit', 'pret', 'dung', sans-serif;
   }
   input[type="submit"] {
     cursor:pointer
@@ -129,7 +135,7 @@ const GlobalStyle = createGlobalStyle`
   }
   textarea, 
   select {
-    font-family:'digit', 'pret', sans-serif;
+    font-family:'digit', 'pret', 'dung', sans-serif;
   }
   select {
     margin:0;
