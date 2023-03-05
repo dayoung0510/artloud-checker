@@ -8,13 +8,13 @@ export const startInputStyle = {
   height: "70px",
   borderWidth: "0.5px",
   color: "#fff",
-  filter: "drop-shadow(1px 1px 7px #40e3fc)",
+  filter: "drop-shadow(0 0 40px #40e3fc)",
   background: "rgba(0,0,0,0.1)",
 };
 
 export const endInputStyle = {
   ...startInputStyle,
-  filter: "drop-shadow(1px 1px 7px #f92f1d)",
+  filter: "drop-shadow(0 0 20px #f94a3a)",
 };
 
 export const inputFocusStyle = {
