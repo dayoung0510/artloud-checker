@@ -19,7 +19,7 @@ const Title = styled.div`
   font-size: 0.5rem;
 
   @media screen and (max-width: 500px) {
-    font-size: 0.2rem;
+    font-size: 0.4rem;
   }
 `;
 const Content = styled.div`
@@ -36,7 +36,7 @@ const Info = () => {
     <ContentContainer>
       <Flex>
         <Title>이용기간</Title>
-        <Content>2023.02.08 - 2023.03.31 (52일)</Content>
+        <Content>2023.02.08 - 2023.03.31</Content>
       </Flex>
       <Flex>
         <Title>결제금액</Title>
