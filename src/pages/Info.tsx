@@ -24,7 +24,7 @@ const Content = styled.div`
   letter-spacing: 2px;
 
   @media screen and (max-width: 500px) {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 `;
 

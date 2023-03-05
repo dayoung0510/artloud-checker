@@ -1,5 +1,6 @@
 import ContentContainer from "src/components/atoms/ContentContainer";
 import styled from "styled-components";
+import Arrow from "src/components/atoms/Arrow";
 
 type Props = {
   records: string[];
@@ -33,6 +34,8 @@ const ResultBox = styled.div`
 const Dashboard = ({ records }: Props) => {
   return (
     <ContentContainer>
+      <Arrow dir="UP" />
+
       {records.map((record) => {
         const dateAcc = record[0];
         const timeAcc = record[1];
