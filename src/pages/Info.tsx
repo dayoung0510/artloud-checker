@@ -42,10 +42,10 @@ const Info = () => {
         <Title>결제금액</Title>
         <Content>₩214,000</Content>
       </Flex>
-      <Flex>
+      {/* <Flex>
         <Title>커피환산</Title>
         <Content>₩4,000</Content>
-      </Flex>
+      </Flex> */}
     </ContentContainer>
   );
 };
