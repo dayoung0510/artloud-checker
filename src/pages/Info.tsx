@@ -16,18 +16,15 @@ const Title = styled.div`
   display: inline-block;
   padding: 0 2px;
   margin-bottom: 5px;
-  font-size: 0.5rem;
-
-  @media screen and (max-width: 500px) {
-    font-size: 0.4rem;
-  }
+  font-size: 0.4rem;
+  color: #ccc;
 `;
 const Content = styled.div`
   font-size: 1rem;
   letter-spacing: 2px;
 
   @media screen and (max-width: 500px) {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 `;
 
@@ -35,8 +32,12 @@ const Info = () => {
   return (
     <ContentContainer>
       <Flex>
-        <Title>이용기간</Title>
-        <Content>2023.02.08 - 2023.03.31</Content>
+        <Title>시작일</Title>
+        <Content>2023.02.08</Content>
+      </Flex>
+      <Flex>
+        <Title>종료일</Title>
+        <Content>2023.03.31</Content>
       </Flex>
       <Flex>
         <Title>결제금액</Title>

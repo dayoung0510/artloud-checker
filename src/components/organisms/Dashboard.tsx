@@ -1,5 +1,6 @@
 import ContentContainer from "src/components/atoms/ContentContainer";
 import styled from "styled-components";
+import Arrow from "src/components/atoms/Arrow";
 
 type Props = {
   records: string[];
@@ -11,14 +12,15 @@ const Div = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #ccc;
+  color: #ddd;
+  font-family: "dung";
 
   @media (max-width: 500px) {
     font-size: 0.6rem;
   }
 `;
 const Number = styled.span`
-  color: #fff;
+  color: #cafccd;
   letter-spacing: 4px;
   filter: drop-shadow(2px 2px 4px #12cd19);
 `;
@@ -32,6 +34,8 @@ const ResultBox = styled.div`
 const Dashboard = ({ records }: Props) => {
   return (
     <ContentContainer>
+      <Arrow dir="UP" />
+
       {records.map((record) => {
         const dateAcc = record[0];
         const timeAcc = record[1];
